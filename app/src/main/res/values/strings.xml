@@ -19,12 +19,10 @@
     <string name="gambar">gambar</string>
     <string name="description">Description</string>
     <string name="example_application">Example Application</string>
-    <string name="assalamualaikum_wr_wb">Assalamualaikum Wr.Wb</string>
-    <string name="nama_dedi_setiawan">NAMA : DEDI SETIAWAN</string>
-    <string name="nim_155610126">NIM : 155610126</string>
     <string name="pemrograman_java_mobile">PEMROGRAMAN JAVA MOBILE</string>
     <string name="tugas">TUGAS</string>
     <string name="input_data">Input Data</string>
     <string name="recycle_view">Recycle View</string>
     <string name="about">About</string>
+    <string name="assalamualaikum_wr_wb">ASSALAMUALAIKUM Wr.Wb</string>
 </resources>

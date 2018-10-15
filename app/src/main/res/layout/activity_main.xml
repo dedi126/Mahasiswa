@@ -23,13 +23,13 @@
 
     <TextView
         android:id="@+id/textnama"
-        android:layout_width="291dp"
+        android:layout_width="238dp"
         android:layout_height="wrap_content"
         android:layout_marginBottom="8dp"
         android:layout_marginEnd="8dp"
         android:layout_marginStart="8dp"
         android:layout_marginTop="8dp"
-        android:text="@string/nama_dedi_setiawan"
+        android:text="NAMA   : DEDI SETIAWAN"
         android:textSize="20sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -41,12 +41,12 @@
 
     <TextView
         android:id="@+id/textnim"
-        android:layout_width="291dp"
+        android:layout_width="237dp"
         android:layout_height="wrap_content"
         android:layout_marginBottom="8dp"
         android:layout_marginEnd="8dp"
         android:layout_marginStart="8dp"
-        android:text="@string/nim_155610126"
+        android:text="NIM       : 155610126"
         android:textSize="20sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
