@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">Mahasiswa</string>
+    <string name="data_mahasiswa">Data Mahasiswa</string>
+    <string name="stmik_akakom">STMIK AKAKOM</string>
+    <string name="gambar2">gambar2</string>
+    <string name="nama">NAMA</string>
+    <string name="nim">NIM</string>
+    <string name="isikan_nama">Isikan Nama</string>
+    <string name="isikan_nim">Isikan Nim</string>
+    <string name="jurusan">JURUSAN</string>
+    <string name="teknik_informatika">Teknik Informatika</string>
+    <string name="sistem_informasi">Sistem Informasi</string>
+    <string name="hobi">HOBI</string>
+    <string name="coding">Coding</string>
+    <string name="tidur">Tidur</string>
+    <string name="tampil">TAMPIL</string>
+    <string name="makan">Makan</string>
+    <string name="rycycler_view">Rycycler View</string>
+    <string name="gambar">gambar</string>
+    <string name="description">Description</string>
+    <string name="example_application">Example Application</string>
+    <string name="assalamualaikum_wr_wb">Assalamualaikum Wr.Wb</string>
+    <string name="nama_dedi_setiawan">NAMA : DEDI SETIAWAN</string>
+    <string name="nim_155610126">NIM : 155610126</string>
+    <string name="pemrograman_java_mobile">PEMROGRAMAN JAVA MOBILE</string>
+    <string name="tugas">TUGAS</string>
+    <string name="input_data">Input Data</string>
+    <string name="recycle_view">Recycle View</string>
+    <string name="about">About</string>
+</resources>
