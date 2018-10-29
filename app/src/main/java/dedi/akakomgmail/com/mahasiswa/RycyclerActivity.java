@@ -1,40 +1,34 @@
 package dedi.akakomgmail.com.mahasiswa;
 
-import android.support.annotation.Nullable;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
 
-import java.util.ArrayList;
-
 public class RycyclerActivity extends AppCompatActivity {
-    private RecyclerView.LayoutManager layoutManager = new LinearLayoutManager(this);
-    private ArrayList<String> dataSet;
+
+    RecyclerView recyclerView;
+    int[] images;
+    String[] placeNames;
+    String[] placeGuide;
 
     @Override
-    protected void onCreate(@Nullable Bundle savedInstanceState) {
+    protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_rycycler);
-        dataSet = new ArrayList<>();
-        initDataset();
 
-        RecyclerView rvView;
-        rvView = this.findViewById(R.id.rv_main);
-        rvView.setHasFixedSize(true);
+        recyclerView = findViewById(R.id.drv);
 
-        rvView.setLayoutManager(layoutManager);
+        images = new int[]{R.drawable.akakom, R.drawable.siakad};
 
-        RecyclerView.Adapter adapter = new RecyclerViewAdapter(dataSet);
-        rvView.setAdapter(adapter);
-    }
+        placeNames = new String[]{"STMIK AKAKOM", "Portal Akdemik"};
 
-    private void initDataset() {
+        placeGuide = new String[]{"https://www.akakom.ac.id/", "https://siakad.akakom.ac.id/"};
 
-        dataSet.add("Dedi Setiawan");
-        dataSet.add("Setiawan");
-        dataSet.add("Dedi");
-        dataSet.add("Setiawan");
-        dataSet.add("Dedi");
+        LinearLayoutManager linearLayoutManager = new LinearLayoutManager(RycyclerActivity.this,
+                LinearLayoutManager.VERTICAL, false);
+        recyclerView.setLayoutManager(linearLayoutManager);
+        RecyclerViewAdapter myAdapter = new RecyclerViewAdapter(RycyclerActivity.this, images, placeNames, placeGuide);
+        recyclerView.setAdapter(myAdapter);
     }
 }

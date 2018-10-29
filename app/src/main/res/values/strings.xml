@@ -15,10 +15,8 @@
     <string name="tidur">Tidur</string>
     <string name="tampil">TAMPIL</string>
     <string name="makan">Makan</string>
-    <string name="rycycler_view">Rycycler View</string>
+    <string name="rycycler_view">Card View (Share and Visit to Browser)</string>
     <string name="gambar">gambar</string>
-    <string name="description">Description</string>
-    <string name="example_application">Example Application</string>
     <string name="pemrograman_java_mobile">PEMROGRAMAN JAVA MOBILE</string>
     <string name="tugas">TUGAS</string>
     <string name="input_data">Input Data</string>
