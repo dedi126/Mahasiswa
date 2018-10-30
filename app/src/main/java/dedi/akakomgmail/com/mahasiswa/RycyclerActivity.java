@@ -19,7 +19,7 @@ public class RycyclerActivity extends AppCompatActivity {
 
         recyclerView = findViewById(R.id.drv);
 
-        images = new int[]{R.drawable.akakom, R.drawable.siakad};
+        images = new int[]{R.drawable.gakakom, R.drawable.siakad};
 
         placeNames = new String[]{"STMIK AKAKOM", "Portal Akdemik"};
 

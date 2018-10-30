@@ -4,4 +4,7 @@
     <color name="colorPrimaryDark">#303F9F</color>
     <color name="colorAccent">#FF4081</color>
     <color name="coklat">#ffc0cb</color>
+    <color name="background">#DEB887</color>
+    <color name="abu">#DCDCDC</color>
+    <color name="hitam">#000000</color>
 </resources>
