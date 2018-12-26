@@ -25,7 +25,9 @@ public class MainActivity extends AppCompatActivity {
     public boolean onOptionsItemSelected(MenuItem item) {
         if (item.getItemId()==R.id.dinput){
             startActivity(new Intent(this, InputActivity.class));
-        } else if (item.getItemId() == R.id.drv) {
+        } else if (item.getItemId() == R.id.dpars) {
+            startActivity(new Intent(this, Parsing.class));
+        }else if (item.getItemId() == R.id.drv) {
             startActivity(new Intent(this, RycyclerActivity.class));
         } else if (item.getItemId() == R.id.dabaout) {
             startActivity(new Intent(this, AboutActivity.class));

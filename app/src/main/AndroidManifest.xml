@@ -2,6 +2,8 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="dedi.akakomgmail.com.mahasiswa">
 
+    <uses-permission android:name="android.permission.INTERNET" />
+
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -18,15 +20,17 @@
         </activity>
         <activity
             android:name=".InputActivity"
-            android:label="Input Data"/>
-
+            android:label="Input Data" />
         <activity
             android:name=".RycyclerActivity"
-            android:label="Rycycler View"/>
-
+            android:label="Rycycler View" />
+        <activity
+            android:name=".Parsing"
+            android:label="Parsing Data"/>
         <activity
             android:name=".AboutActivity"
             android:label="About" />
 
     </application>
+
 </manifest>
